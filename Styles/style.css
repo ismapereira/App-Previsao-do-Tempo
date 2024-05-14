@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada Big', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://source.unsplash.com/1600x900/?landscape") no-repeat;
+}
+
+.container{
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 15px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisar{
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 241, 241);
+    width: calc(100% - 100px);
+}
+
+.botao-buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(41, 41, 41);
+    cursor: pointer;
+    float: right;
+    transition: 0.2s ease-in;
+}
+
+.botao-buscar:hover{
+    transform: scale(1.1);
+}
+
+.img-buscar{
+    width: 20px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+h2{
+    color: rgb(255, 241, 241);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.temperatura{
+    color: rgb(255, 241, 241);
+    font-size: 23px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.texto-previsao{
+    color: rgb(255, 241, 241);
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: rgb(255, 241, 241);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+}
